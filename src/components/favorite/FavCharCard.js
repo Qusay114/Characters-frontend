@@ -35,7 +35,7 @@ export class FavCharCard extends Component {
       return(
         <>
           {/* <Card.Img src={data.img} alt='' style={{width:'3rem'}} /> */}
-          <ListGroup.Item style={{display:'inline' , width:'7rem'}}>{data.name}</ListGroup.Item>
+          <ListGroup.Item style={{display:'inline' , width:'7rem'}} key={index} >{data.name}</ListGroup.Item>
         </>
       )
     })
